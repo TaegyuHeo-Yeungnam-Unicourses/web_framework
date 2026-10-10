@@ -1,0 +1,11 @@
+AccountCreateService.create : 호출 시간 = 2026-10-11T00:31:10.625136341
+return 값 = false
+AccountCreateService.create : 호출 시간 = 2026-10-11T00:31:10.627799910
+return 값 = true
+TransactionService.withdraw : 호출 시간 = 2026-10-11T00:31:10.641520884
+return 값 = 1200
+TransactionService.deposit : 호출 시간 = 2026-10-11T00:31:10.648673954
+TransactionService.withdraw : 호출 시간 = 2026-10-11T00:31:10.648894571
+TransactionService.withdraw : 호출 시간 = 2026-10-11T00:31:10.649011392
+return 값 = 0
+PASS: 25 checks

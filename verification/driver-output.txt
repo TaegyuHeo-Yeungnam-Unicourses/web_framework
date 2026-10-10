@@ -1,0 +1,51 @@
+
+명령어 인자들... 또는 help : 	create 사용자id 이름 잔고
+	deposit 계좌id 입금액
+	withdraw 계좌id 출금액
+	report 사용자id
+	report-all
+
+명령어 인자들... 또는 help : 
+명령어 인자들... 또는 help : AccountCreateService.create : 호출 시간 = 2026-10-11T00:31:45.053235402
+return 값 = true
+정상적으로 생성되었습니다.
+
+명령어 인자들... 또는 help : AccountCreateService.create : 호출 시간 = 2026-10-11T00:31:45.055828852
+return 값 = false
+오류가 발생하였습니다: 중복된 계좌가 존재합니다.
+
+명령어 인자들... 또는 help : AccountCreateService.create : 호출 시간 = 2026-10-11T00:31:45.056082355
+return 값 = true
+정상적으로 생성되었습니다.
+
+명령어 인자들... 또는 help : TransactionService.deposit : 호출 시간 = 2026-10-11T00:31:45.057169255
+return 값 = 1500
+정상적으로 입금되었습니다. 잔액 = 1500
+
+명령어 인자들... 또는 help : TransactionService.withdraw : 호출 시간 = 2026-10-11T00:31:45.059015660
+return 값 = 1200
+정상적으로 출금되었습니다. 잔액 = 1200
+
+명령어 인자들... 또는 help : TransactionService.withdraw : 호출 시간 = 2026-10-11T00:31:45.059388197
+잔고가 부족합니다.
+
+명령어 인자들... 또는 help : TransactionService.deposit : 호출 시간 = 2026-10-11T00:31:45.060143846
+존재하지 않는 계좌 id입니다.
+
+명령어 인자들... 또는 help : TransactionService.withdraw : 호출 시간 = 2026-10-11T00:31:45.061647965
+존재하지 않는 계좌 id입니다.
+
+명령어 인자들... 또는 help : 계좌 ID = 1, 잔액 = 1200
+
+명령어 인자들... 또는 help : 존재하지 않는 사용자 id입니다.
+
+명령어 인자들... 또는 help : 계좌 ID = 1, 잔액 = 1200
+계좌 ID = 2, 잔액 = 2000
+
+명령어 인자들... 또는 help : TransactionService.withdraw : 호출 시간 = 2026-10-11T00:31:45.062991717
+return 값 = 0
+정상적으로 출금되었습니다. 잔액 = 0
+
+명령어 인자들... 또는 help : 계좌 ID = 1, 잔액 = 0
+
+명령어 인자들... 또는 help : 

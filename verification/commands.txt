@@ -1,0 +1,16 @@
+help
+report-all
+create user1 홍길동 1000
+create user1 중복 9999
+create user2 김영희 2000
+deposit 1 500
+withdraw 1 300
+withdraw 1 9999
+deposit 99 100
+withdraw 99 100
+report user1
+report nobody
+report-all
+withdraw 1 1200
+report user1
+exit
